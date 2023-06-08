@@ -5,7 +5,8 @@
   tasks:
     - name: print hello world
       ansible.builtin.debug:
-      msg: helloworld
-    - name: Include task list in play
+       msg: Hello World
+
+    - name: Include universe file
       ansible.builtin.include_tasks:
         file: universe.yml
