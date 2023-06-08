@@ -2,7 +2,7 @@
   hosts: all
   vars:
     URL: example.com
-    tasks:
-      - name: print the URL variable
-        ansible.builtin.debug:
-          msg: URL - {{ URL }}
+  tasks:
+    - name: print the URL variable
+      ansible.builtin.debug:
+        msg: URL - {{ URL }}
