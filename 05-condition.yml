@@ -5,8 +5,8 @@
     - name: print hello universe
       ansible.builtin.debug:
         msg: hello universe
-        when: what == "universe"
+      when: what == "universe"
     - name: print hello world
       ansible.builtin.debug:
         msg: hello world
-        when: what == "world"
+      when: what == "world"
